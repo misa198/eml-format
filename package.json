@@ -1,10 +1,11 @@
 {
-  "name": "eml-format",
-  "version": "0.6.1",
+  "name": "@misa198/eml-format",
+  "version": "0.0.4",
   "description": "RFC 822 EML file format parser and builder",
-  "author": "Papn Kukn",
+  "author": "Papn Kukn/misa198",
   "license": "MIT",
   "main": "index.js",
+  "types": "index.d.ts",
   "bin": {
     "eml-unpack": "bin/eml-unpack.js"
   },
@@ -13,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/papnkukn/eml-format"
+    "url": "https://github.com/misa198/eml-format"
   },
   "bugs": {
-    "url": "https://github.com/papnkukn/eml-format/issues"
+    "url": "https://github.com/misa198/eml-format/issues"
   },
   "devDependencies": {
     "nodeunit": "^0.11.3"
   },
   "dependencies": {
-    "iconv-lite": "^0.5.0"
+    "iconv-lite": "^0.6.3"
   }
 }
